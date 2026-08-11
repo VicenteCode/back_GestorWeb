@@ -212,7 +212,7 @@
  *       404:
  *         description: Categoría no encontrada
  *
- * /admin/categorias-servicios/{id}/reactivar:
+ * /categorias-servicios/{id}/reactivar:
  *   put:
  *     summary: Reactivar una categoría de servicio
  *     tags: [Categorias de Servicios]
