@@ -67,6 +67,8 @@
  *   post:
  *     summary: Registrar un nuevo usuario
  *     tags: [Usuarios]
+ *     security:
+ *       - bearerAuth: []
  *     requestBody:
  *       required: true
  *       content:

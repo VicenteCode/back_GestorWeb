@@ -71,6 +71,8 @@
  *   get:
  *     summary: Listar todos los servicios
  *     tags: [Servicios]
+ *     security:
+ *       - bearerAuth: []
  *     responses:
  *       200:
  *         description: Lista de servicios
@@ -243,7 +245,7 @@
  *       409:
  *         description: El servicio ya está desactivado
  *
- * /admin/servicios/{id}/reactivar:
+ * /servicios/{id}/reactivar:
  *   put:
  *     summary: Reactivar un servicio previamente desactivado
  *     tags: [Servicios]
